@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+
+  background-color: white;
+  position: fixed; /* Header'ı ekranın yukarısında sabitler */
+  top: 0; /* Ekranın en üstünde yer almasını sağlar */
+  left: 0; /* Ekranın sol tarafında başlar */
+  right: 0; /* Ekranın sağ tarafında biter */
+  z-index: 1000; /* Diğer öğelerin üzerinde yer alması için yüksek bir z-index değeri */
+  /* Gölge özellikleri: x y blur spread color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+  height: 4vh;
+}
+
+.btn-languages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  border: 1px solid #ea004b;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-pink {
+  background-color: #ea004b;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Düzgün bir renk ve büyüklük geçişi için */
+}
+
+.btn-white:hover {
+  background-color: #ea004b;
+  color: #fff;
+  transform: scale(1.05); /* %5 büyütme */
+}
+
+.btn-cart {
+  cursor: pointer;
+  margin: 10px;
+  border: 0;
+}
+
+.header a {
+  cursor: pointer;
+}
+
+.img-fluid-icon {
+  width: 20px;
+}
+
+#banner {
+  display: flex;
+  height: 100vh;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.banner-content {
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.banner-img {
+  overflow: hidden;
+  width: 40vw;
+}
+
+.input-search {
+  width: 500px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #bababa;
+}
+.input-wrapper {
+  width: 70%;
+  background-color: white;
+  border-radius: 30px; /* Sivrilikleri almamızı sağlar */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* İçerideki öğeler arasındaki boşluğu ayarlar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge ekler */
+}
+
+.btn-pink {
+  background-color: #ea004b;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Düzgün bir renk ve büyüklük geçişi için */
+}
+
+.btn-pink:hover {
+  background-color: #fff; /* Hafif açık kırmızı */
+  transform: scale(1.05); /* %5 büyütme */
+  color: #333333;
+}
+
+.gps-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 60px; /* İnput'un sağ tarafına doğru konumlandırma. Bu değeri ihtiyaca göre ayarlayabilirsiniz. */
+  pointer-events: none; /* İkona tıklanmamasını sağlar, böylece input'a odaklanabiliriz. */
+}
+.categories-content {
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+}
+
+.food {
+  margin: 60px 20px;
+  text-align: center;
+  width: 28%;
+  height: auto;
+  border: 1px solid #a7a7a7;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.more-info {
+  color: #393939;
+  background: #fff;
+}
+
+.food h3 {
+  font-size: 24px;
+  margin: 16px 0;
+}
+
+.food button {
+  margin: 16px 0;
+  margin-bottom: 24px;
+}
+
+.food a {
+  margin: 16px 0;
+  margin-bottom: 24px;
+}
+
+.food p {
+  text-align: justify;
+}
+
+.img-food {
+  width: 100%;
+  height: 200px;
+}
+
+.food-desc {
+  height: 200px;
+  padding: 0 20px;
+}
+
+/*aside alanı için tasarlanmıştır.*/
+.advert {
+  /* Dikey boyutu belirtir */
+  height: 500px;
+  /* Ekranın tamamını kaplar */
+  width: 99.5%;
+  /* Üst ve alttan boşluk ekler */
+  /*margin-bottom: 40px;*/
+  /* Çerçeve özellikleri */
+  border: 1px solid black;
+  /* Hafif yuvarlak köşeler */
+  border-radius: 5px;
+  /* Gölge efekti */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  /* Görselin doğru boyutlandırılması */
+  display: flex;
+  align-items: center; /* Dikey ortalamayı sağlar */
+  justify-content: center; /* Yatay ortalamayı sağlar */
+  overflow: hidden; /* Eğer resim kutusunu taşırsa fazlalıklarını göstermez */
+}
+
+.advert img {
+  /* Resmin tamamının görünebilmesi için eni ve boyu otomatik ayarlanmıştır */
+  width: 100%;
+  max-height: 100%;
+}
+
+/* Footer genel stilini tanımlar */
+footer {
+  background-color: #f8f8f8; /* Arka plan rengini belirtir */
+  padding: 20px; /* İç boşluk (padding) ekler */
+  font-family: Arial, sans-serif; /* Yazı tipini belirtir */
+  padding-left: 20%; /* Ekranın solundan %10 boşluk */
+  padding-right: 20%; /* Ekranın sağından %10 boşluk */
+}
+
+/* Alt bilginin üst kısmı için stil */
+.footer-top {
+  display: flex; /* İç elemanları yan yana getirir */
+  justify-content: space-between; /* Elemanları iki uca yayar */
+  align-items: center; /* Elemanları dikey olarak ortalar */
+}
+
+/* Footer logo resminin boyutunu ayarlar */
+.footer-logo img {
+  max-width: 150px; /* En fazla genişlik */
+  height: auto; /* Yükseklik otomatik olarak ayarlanır */
+}
+
+/* Sosyal medya ikonları için stil */
+.social-icons ul {
+  display: flex; /* İç elemanları yan yana getirir */
+  list-style-type: none; /* Liste işaretçilerini kaldırır */
+  padding: 0; /* İç boşluğu kaldırır */
+}
+
+.social-icons ul li {
+  margin-left: 10px; /* Liste elemanları arasında sol boşluk ekler */
+}
+
+.social-icons ul li img {
+  max-width: 30px; /* İkon genişliğini belirtir */
+  height: auto; /* Yükseklik otomatik olarak ayarlanır */
+}
+
+.social-icons ul li img:hover {
+  max-width: 30px; /* İkon genişliğini belirtir */
+  height: auto; /* Yükseklik otomatik olarak ayarlanır */
+  transform: scale(1.05);
+}
+
+/* Alt bilginin alt kısmı için stil */
+.footer-bottom {
+  display: flex; /* İç elemanları yan yana getirir */
+  justify-content: space-between; /* Elemanları iki uca yayar */
+}
+
+/* Kolonlar için stil */
+.col-3 {
+  display: inline-block; /* Inline-block olarak ayarlar, böylece eleman sadece içeriği kadar yer kaplar ve yan yana dizilir */
+  padding: 0 10px; /* Sağdan ve soldan iç boşluk ekler */
+  vertical-align: top; /* İçeriklerin üst hizalı olmasını sağlar */
+}
+
+.col-3 ul {
+  list-style-type: none; /* Liste işaretçilerini kaldırır */
+  padding: 0; /* İç boşluğu kaldırır */
+  margin: 0; /* Dış boşluğu kaldırır */
+}
+
+.col-3 ul li {
+  margin-bottom: 10px; /* Liste elemanları arasında alt boşluk ekler */
+}
+
+.col-3 ul li a {
+  text-decoration: none;
+  color: #161111;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  /* Footer üzerindeki linklere geldiğimizde harekete geçer.*/
+  color: red; /* Kırmızı renk */
+  text-decoration: none; /* Linklerin altındaki çizgiyi kaldırır, isteğe bağlı */
+}
+
+.sep-item {
+  /* Ayraç olarak kullandığımız hr çizgisini üst ve alttan 20 px boşluk bırakarak uzaklaştır.*/
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* Rengini hafif şeffaflaştırarak açık gri yap */
+  background-color: rgba(
+    220,
+    220,
+    220,
+    0.7
+  ); /* Açık gri renk ve %70 şeffaflık */
+  border: none; /* Varsayılan çerçeveyi kaldır */
+  height: 1px; /* hr çizgisinin yüksekliği */
+}

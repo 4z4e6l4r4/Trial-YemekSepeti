@@ -1,0 +1,28 @@
+.food-recipe {
+    overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.food-content {
+  width: 60vw;
+  padding: 80px;
+}
+
+.food-content h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.food-content h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.food-img {
+  border-radius: 50% 0 0 50%;
+  width: 40vw;
+  scale: 1.4;
+  border: 30px solid #ea004b;
+}

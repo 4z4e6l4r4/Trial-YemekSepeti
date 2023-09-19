@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!-- Belgenin HTML5 olduğunu belirten satır -->
+<html lang="tr">
+<!-- Belgenin Türkçe olduğunu belirten satır -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Belgenin karakter setini tanımlayan satır. UTF-8, uluslararası karakterleri destekler. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Web sayfasının mobil uyumlu olmasını sağlar. -->
+    <title>Yemeksepeti</title> <!-- Web tarayıcısının sekmesinde görünen başlık -->
+    <link rel="stylesheet" href="./style/style.css"> <!-- Harici CSS dosyasını HTML belgesine dahil eder. -->
+</head>
+
+<body>
+
+
+    <!-- Header Section Start -->
+    <header id="header" class="header">
+        <a>
+            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Yemeksepeti_logo.svg"
+                alt="Yemmeksepeti Logo">
+        </a>
+        <div>
+            <button class="btn btn-white">Giriş Yap</button>
+            <button class="btn btn-pink">Kayıt Ol</button>
+            <button class="btn-cart">
+                <div class="btn-languages">
+                    <img class="img-fluid-icon" src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="">
+                    TR
+                    <img class="img-fluid-icon" src="https://cdn-icons-png.flaticon.com/512/7356/7356260.png" alt="">
+                </div>
+            </button>
+            <button class="btn-cart">
+                <img class="img-fluid-icon" src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="">
+            </button>
+        </div>
+    </header>
+
+    <!-- Banner Section Start -->
+    <main>
+        <section id="banner">
+            <div class="banner-content">
+                <h1 class="title">Yemek Tarif Listesi</h1>
+                <div class="input-wrapper">
+                    <input class="input-search" type="text" placeholder="Yemek Tarifi Ara">
+                    <img class="gps-icon" src="https://cdn-icons-png.flaticon.com/512/8/8131.png" alt="GPS Icon">
+                    <button id="btn btn-pink" class="btn btn-pink">Keşfet</button>
+                </div>
+            </div>
+            <div class="banner-img">
+                <img style="height: 100%;" class="img-fluid"
+                    src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-tr.png?width=1264"
+                    alt="">
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <!-- Kategoriler Section Start -->
+
+
+
+    <main>
+        <section id="category" class="categories">
+            <div class="categories-content">
+                <h2 class="title">
+                    Kategoriler
+                </h2>
+                <p style="margin-top: 40px; width: 70vw; line-height: 24px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta enim quis consectetur delectus
+                    consequuntur culpa odio aspernatur perferendis labore, tempora distinctio mollitia veritatis quod
+                    commodi. Provident dicta dolorum porro.
+                </p>
+            </div>
+            <div class="categories-list">
+
+                <div class="food">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?w=740&t=st=1692444473~exp=1692445073~hmac=cc10458f3af1013afe96b5fd1491a1f5743383f6e42ac6f2f66ce2aea1938129"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Döner</h3>
+                        <p>
+                            Hatay Usulü Tavuk Döner Tarifi Nasıl Yapılır?
+                            1.Önceden rendeleyip sıktığınız soğanın suyunu, yoğurdu, köriyi, pul biberi, tuzu,
+                            karabiberi, kekiği, kırmızı biberi, sarımsağı, kimyonu derin bir kasede buluşturun ve
+                            üzerine zeytinyağını ilave edin.
+                            2.Homojen olana dek karıştırın.
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Tarifler</button>
+                </div>
+
+
+                <div class="food">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/traditional-tajine-dishes-couscous-fresh-salad-rustic-wooden-table-tagine-lamb-meat-pumpkin-top-view-flat-lay_2829-6116.jpg?w=1060&t=st=1692446746~exp=1692447346~hmac=b8793b3bf4d7c32c8d5f695ac59e4be5a9ae7e131872e0bbbcb7aeca19a2fbb4"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Ev Yemekleri</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero tempore quos
+                            fugiat. Quibusdam excepturi sint cum sit reiciendis nulla odio aspernatur necessitatibus,
+                            quia quae totam atque vero incidunt accusamus?
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Tarifler</button>
+                </div>
+
+
+                <div class="food">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1692446706~exp=1692447306~hmac=77d5575474f3616968c1f134c54cf0e11944a3d0b4a7521fbeb9e3f716aa47bb"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Burger</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nulla sequi ex voluptate
+                            accusamus dolorum architecto, non praesentium sit fuga quia veritatis rerum atque impedit
+                            voluptatibus incidunt tenetur laudantium repudiandae?
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Tarifler</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <main>
+        <section style="background-color: #ea004b; color: #fff;" id="category" class="categories">
+            <div class="categories-content">
+                <h2 style="color: #fff;" class="title">
+                    Yemekler
+                </h2>
+                <p style="margin-top: 40px; width: 70vw; line-height: 24px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta enim quis consectetur delectus
+                    consequuntur culpa odio aspernatur perferendis labore, tempora distinctio mollitia veritatis quod
+                    commodi. Provident dicta dolorum porro.
+                </p>
+            </div>
+            <div class="categories-list">
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/lule-kebab-with-onions-pickles_140725-6245.jpg?w=900&t=st=1692448922~exp=1692449522~hmac=f82cc470ed9a1758a494a9c1c425ea629746bdfea8da9d3eb9294d5fc0aa8f47"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Adana Kebap</h3>
+                        <p>
+                            Hatay Usulü Tavuk Döner Tarifi Nasıl Yapılır?
+                            1.Önceden rendeleyip sıktığınız soğanın suyunu, yoğurdu, köriyi, pul biberi, tuzu,
+                            karabiberi, kekiği, kırmızı biberi, sarımsağı, kimyonu derin bir kasede buluşturun ve
+                            üzerine zeytinyağını ilave edin.
+                            2.Homojen olana dek karıştırın.
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                </div>
+
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/grilled-chicken-legs-flaming-grill-with-grilled-vegetables-with-tomatoes-potatoes-pepper-seeds-salt_1150-37864.jpg?w=996&t=st=1692448990~exp=1692449590~hmac=11af58c7eceff617d9b1c4e81247cdd613f2e62fcd4b8d981d38977d22740c01"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Tavuk Izgara</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero tempore quos
+                            fugiat. Quibusdam excepturi sint cum sit reiciendis nulla odio aspernatur necessitatibus,
+                            quia quae totam atque vero incidunt accusamus?
+                        </p>
+                    </div>
+                    <a href="./TavukIzgara.html">
+                        <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                    </a>
+                </div>
+
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1692446706~exp=1692447306~hmac=77d5575474f3616968c1f134c54cf0e11944a3d0b4a7521fbeb9e3f716aa47bb"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Burger</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nulla sequi ex voluptate
+                            accusamus dolorum architecto, non praesentium sit fuga quia veritatis rerum atque impedit
+                            voluptatibus incidunt tenetur laudantium repudiandae?
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                </div>
+
+
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/side-view-shawarma-with-fried-potatoes-board-cookware_176474-3215.jpg?w=740&t=st=1692444473~exp=1692445073~hmac=cc10458f3af1013afe96b5fd1491a1f5743383f6e42ac6f2f66ce2aea1938129"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Döner</h3>
+                        <p>
+                            Hatay Usulü Tavuk Döner Tarifi Nasıl Yapılır?
+                            1.Önceden rendeleyip sıktığınız soğanın suyunu, yoğurdu, köriyi, pul biberi, tuzu,
+                            karabiberi, kekiği, kırmızı biberi, sarımsağı, kimyonu derin bir kasede buluşturun ve
+                            üzerine zeytinyağını ilave edin.
+                            2.Homojen olana dek karıştırın.
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                </div>
+
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://cdn.yemek.com/mncrop/940/625/uploads/2020/08/manti-tarifi-guncelleme-son.jpg"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Mantı</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero tempore quos
+                            fugiat. Quibusdam excepturi sint cum sit reiciendis nulla odio aspernatur necessitatibus,
+                            quia quae totam atque vero incidunt accusamus?
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                </div>
+
+
+                <div class="food more-info">
+                    <img class="img-fluid img-food"
+                        src="https://img.freepik.com/free-photo/flat-lay-salad-with-chicken-sesame-seeds_23-2148700369.jpg?w=996&t=st=1692449148~exp=1692449748~hmac=2664a109b6da47984de49e2302c2c9e7aee52d5719139247ea949e1dc59c5758"
+                        alt="">
+                    <div class="food-desc">
+                        <h3>Tavuk Salata</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis nulla sequi ex voluptate
+                            accusamus dolorum architecto, non praesentium sit fuga quia veritatis rerum atque impedit
+                            voluptatibus incidunt tenetur laudantium repudiandae?
+                        </p>
+                    </div>
+                    <button style="font-size: 16px;" class="btn btn-pink">Daha Fazla Bilgi</button>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+    <a href="https://www.yemeksepeti.com/chain/cq2js/pizza-hut" target="_blank">
+
+        <aside class="advert">
+            <!-- Reklam alanı için tasarlanmıştır.-->
+
+            <img src="https://images.deliveryhero.io/image/fd-tr/LH/d8r8-hero.jpg" title="Reklam_Restaurant" />
+
+
+        </aside>
+    </a>
+
+
+
+
+
+
+
+
+
+    <!-- Footer için tasarlayacağımız alan gelecektir. -->
+
+    <footer>
+        <!-- Alt bilgi (footer) başlangıcı -->
+        <hr class="sep-item"> <!-- Yatay çizgi (hr) ekler -->
+
+        <div class="footer-top">
+            <!-- Alt bilginin üst kısmı -->
+            <div class="footer-logo">
+                <!-- Logo için alan -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Yemeksepeti_logo.svg" width="200px"
+                    height="100%" alt="Sitemiz Logo"> <!-- Logo resmini ekler -->
+            </div>
+            <div class="social-icons">
+                <!-- Sosyal medya ikonları için alan -->
+                <ul>
+                    <!-- Sırasız liste başlangıcı -->
+                    <!-- Aşağıda her sosyal medya ikonu için liste elemanı ve bağlantı ekleniyor -->
+                    <li>
+                        <a href="https://www.instagram.com/explore/tags/yemeksepeti/?hl=tr" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"
+                                width="70px" height="70px" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/yemeksepeti/?originalSubdomain=tr" target="_blank">
+                            <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png"
+                                width="70px" height="70px" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ys_market" target="_blank">
+                            <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                                width="70px" height="70px" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Yemeksepeti/?locale=tr_TR" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"
+                                width="70px" height="70px" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="sep-item"> <!-- Yatay çizgi (hr) ekler -->
+
+        <div class="footer-bottom">
+            <!-- Alt bilginin alt kısmı -->
+            <!-- Aşağıda her kolon için bir div ve içerisinde bir sırasız liste ekleniyor -->
+            <div class="col-3">
+                <ul>
+                    <li><a href="index.html">© 2023 Yemeksepeti</a></li>
+
+                    <li><a class="footer-link" href="#category">Kategoriler</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#">Kullanım Koşulları</a></li>
+                    <li><a class="footer-link" href="#"> S.S.S. ve İşlem Rehberi</a></li>
+                    <li><a class="footer-link" href="#"> Basın</a></li>
+
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#">Çerez Politikaları</a></li>
+                    <li><a class="footer-link" href="#">İletişim</a></li>
+                    <li><a class="footer-link" href="#">Bilgi Toplumu Hizmetleri</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#">Aydınlatma Metinleri</a></li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            Kişisel Verilerin Korunması ve İşlenmesi ve Gizlilik
+                            Politikası
+                        </a>
+                    </li>
+                    <li><a class="footer-link" href="#">Aydınlatma Metinleri</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="sep-item"> <!-- Yatay çizgi (hr) ekler -->
+
+        <h4 style="margin-left:2%;">Mutfaklarımız</h4> <br />
+        <div class="footer-bottom">
+            <!-- Alt bilginin alt kısmı -->
+            <!-- Aşağıda her kolon için bir div ve içerisinde bir sırasız liste ekleniyor -->
+
+
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#"><b>İstanbul</b></a></li>
+                    <li><a class="footer-link" href="#">Burger</a></li>
+                    <li><a class="footer-link" href="#">Tavuk</a></li>
+                    <li><a class="footer-link" href="#">Izgara</a></li>
+                    <li><a class="footer-link" href="#">Pizza</a></li>
+                    <li><a class="footer-link" href="#">Pide</a></li>
+                    <li><a class="footer-link" href="#">Tatlı</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#"><b>Ankara</b></a></li>
+                    <li><a class="footer-link" href="#">Burger</a></li>
+                    <li><a class="footer-link" href="#">Tavuk</a></li>
+                    <li><a class="footer-link" href="#">Izgara</a></li>
+                    <li><a class="footer-link" href="#">Pizza</a></li>
+                    <li><a class="footer-link" href="#">Pide</a></li>
+                    <li><a class="footer-link" href="#">Tatlı</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#"><b>İzmir</b></a></li>
+                    <li><a class="footer-link" href="#">Burger</a></li>
+                    <li><a class="footer-link" href="#">Tavuk</a></li>
+                    <li><a class="footer-link" href="#">Izgara</a></li>
+                    <li><a class="footer-link" href="#">Pizza</a></li>
+                    <li><a class="footer-link" href="#">Pide</a></li>
+                    <li><a class="footer-link" href="#">Tatlı</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul>
+                    <li><a class="footer-link" href="#"><b>Antalya</b></b></a></li>
+                    <li><a class="footer-link" href="#">Burger</a></li>
+                    <li><a class="footer-link" href="#">Tavuk</a></li>
+                    <li><a class="footer-link" href="#">Izgara</a></li>
+                    <li><a class="footer-link" href="#">Pizza</a></li>
+                    <li><a class="footer-link" href="#">Pide</a></li>
+                    <li><a class="footer-link" href="#">Tatlı</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <hr class="sep-item"> <!-- Yatay çizgi (hr) ekler -->
+
+        <a href="https://yemek.com/"><img
+                src="https://muraterdor.com/wp-content/uploads/2019/12/379_muraterdor.com_.png" width="90px"
+                height="30px" title="Yemek.com" /></a>
+        <a href="https://yemek.com/"><img src="https://assets.stickpng.com/images/5a902dbf7f96951c82922875.png"
+                width="90px" height="30px" title="Google Play" /></a>
+        <a href="https://yemek.com/"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Download_on_the_App_Store_Badge_US-UK_RGB_wht.svg/2560px-Download_on_the_App_Store_Badge_US-UK_RGB_wht.svg.png"
+                width="90px" height="30px" title="App Store" /></a>
+
+
+    </footer>
+
+</body>
+
+</html>
